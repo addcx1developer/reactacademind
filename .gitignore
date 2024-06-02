@@ -6,11 +6,17 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+coverage
+
 node_modules
 dist
 dist-ssr
 *.local
 package-lock.json
+
+.next
+out
+build
 
 .vscode/*
 !.vscode/extensions.json
@@ -21,3 +27,11 @@ package-lock.json
 *.njsproj
 *.sln
 *.sw?
+*.pem
+
+.env*.local
+
+.vercel
+
+*.tsbuildinfo
+next-env.d.ts
